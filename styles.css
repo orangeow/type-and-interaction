@@ -1,0 +1,243 @@
+body{
+    overflow-y:hidden;
+}
+
+#whole-book{
+    height:auto;
+    width:calc(100vw * 10.5);
+    position:absolute;
+    left:50vw;
+    top:10vh;
+}
+
+.locator{
+    width:calc((100vw / 21) - 1.75px);
+    height:3vw;
+    background-color:black;
+    border:0.5px solid white;
+}
+
+#navbar{
+    display:flex;
+    position:fixed;
+    top: 85vh;
+    left: -2.5vw;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:105vw;
+}
+
+.page{
+    margin:-2px;
+    padding:0px;
+    width:50vw;
+}
+
+#cosmos-entire-quote{
+    height: calc(300vw / 11);
+    display:flex;
+    flex-wrap:wrap;
+    width:100vw;
+    position:absolute;
+    /* border:1px solid red; */
+    left:550vw;
+    top:0%;
+    justify-content:space-between;
+}
+
+.place-holder{
+    opacity:0;
+}
+
+.cosmos-quote{
+    width:98%;
+    height:20%;
+
+}
+
+body{
+    background-color:black;
+}
+
+#orbit1{
+    border:1px solid white;
+    border-radius: 50%;
+    width: 34.25vw;
+    height: 34.25vw;
+    position:absolute;
+    top:-55px;
+    left:457.75vw;
+}
+
+#planet-1{
+    width: 0.5vw;
+    height:0.5vw;
+    border-radius: 50%;
+    background-color:white;
+    position:absolute;
+    /* left:-1%; */
+    /* top:50%; */
+    /* min=-1% max=99.5% same for top and left*/
+}
+
+#planet-2{
+    width: 0.5vw;
+    height:0.5vw;
+    border-radius: 50%;
+    background-color:white;
+    position:absolute;
+    left:50%; 
+    /* left min =15% max=83.5% same for top*/
+    top:15%;
+}
+
+#planet-3{
+    width: 0.5vw;
+    height:0.5vw;
+    border-radius: 50%;
+    background-color:white;
+    position:absolute;
+    left:50%; 
+    /* left min =22% max=77% same for top*/
+    top:77%;
+}
+
+#big-galaxy-container{
+    position:absolute;
+    width:100vw;
+    height:50vh;
+    overflow:hidden;
+    left: 600vw;
+    top:10vh;
+    
+}
+
+#big-star-image{
+    width:100%;
+    height:auto;
+    top:-192px;
+    position:absolute;
+}
+
+#final-page{
+    opacity:0;
+}
+
+#worship-sun{
+    position:absolute;
+    left: 250vw;
+    width:50vw;
+    opacity:0;
+}
+
+#text-2{
+    position:absolute;
+    left: 305.45vw;
+    top:51px;
+    width:25.4vw;
+}
+
+#sun-label{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position:absolute;
+    color:white;
+    font-size:12px;
+}
+
+#sun-label-container{
+    position:absolute;
+    left:724.2vw;
+    top:31vh;
+    width:50px;
+    height:auto;
+    opacity:0;
+}
+
+#arrow{
+    width:35px;
+    height:1px;
+    border-top:1px solid white;
+    rotate: -21deg;
+    position:absolute;
+    left:35px;
+}
+
+#intro-paragraph{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:12.5px;
+    color:white;
+    position:absolute;
+    left:120vw;
+    line-height: 1.75rem;
+    letter-spacing: 0.03rem;
+    top:7.7vh;
+}
+
+#big-paragraph{
+    position:absolute;
+    left:749.85vw;
+    width:49.9vw;
+    top:-0.25vh;
+}
+
+#tiny-suns{
+    width:50vw;
+    height: 27.2vw;
+    background-color:white;
+    position:absolute;
+    left: 800vw;
+    top:0px;
+    overflow:hidden;
+}
+
+.little-sun{
+    width:4vw;
+    height:auto;
+    margin:-1px;
+}
+
+.row{
+    width:60vw;
+    margin-left:-2.5vw;
+    margin-top:-3px;
+}
+
+#rows-container{
+    width:50vw;
+    height: 27.2vw;
+    position:absolute;
+    top:-5vh;
+}
+
+#suns-heat-container{
+    width:50vw;
+    height: 27.2vw;
+    overflow: hidden;
+    position:absolute;
+    left: 200vw;
+    top:0;
+    margin:0;
+    margin-top:-1px;
+}
+
+#suns-heat-background{
+    width:100%;
+    height:auto;
+}
+
+#suns-heat-text{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:0px;
+    left:0px;
+    filter: drop-shadow(2px 2px 2px);
+}
+
+#final-page-space{
+    width:25vw;
+}
